@@ -398,8 +398,8 @@ class Meteosat(Satellite):
             print (f'File {native_name} already exists.')
 
     def _eumetsat_get_token(self):
-        key = 'a2KSFPSidmgngwaV0KtVUeWop80a'
-        secret = 'Hf7tk5qlevRY5dTjk9PCKFmHrVAa'
+        key = 'your key here'
+        secret = 'your secret here'
         credentials = (key, secret)
 
         try:
